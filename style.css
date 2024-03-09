@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    position: absolute;
+}
+header{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: right;
+}
+header a{
+    color:rgb(225,225,225,0.5);
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+header a:hover{
+    color: white;
+}
+.logo h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.midilhead{
+    font-weight: 600;
+    mix-blend-mode:luminosity;
+    color: white;
+    font-size: 50px;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%); 
+}
+.second-head{
+    margin-top: 70px;
+    font-weight: 600;
+    mix-blend-mode:luminosity;
+    color: black;
+    font-size: 50px;
+}
+main{
+    background-image: url(https://admin.freetour.com/images/tours/10971/guided-bus-tour-in-amsterdam-02.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.second{
+    background-image: url(https://www.widest.com/wp-content/uploads/2017/12/The-Eiffel-Tower.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.paragraph{
+    margin: 0px 20px 0px 20px;
+}
+.paragraph p{
+    text-justify: auto;
+}
+.third{
+    background-image: url(http://hdqwalls.com/wallpapers/big-sun-sunset-water-body-4k-sm.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.fourth{
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/09/City-Dubai-photograph-from-the-top-of-skyscrapers-United-Arab-Emirates-full-HD-Wallpapers-1920x1200.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.thir{
+    font-weight: 600;
+    mix-blend-mode: overlay;
+    color: black;
+    font-size: 50px;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%); 
+}
